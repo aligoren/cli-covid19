@@ -1,0 +1,30 @@
+{
+  "name": "cli-covid19",
+  "version": "1.0.0",
+  "description": "A CLI tool to track Covid-19 cases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aligoren/cli-covid19.git"
+  },
+  "keywords": [
+    "covid19",
+    "corona",
+    "coronavirus"
+  ],
+  "author": "Ali GOREN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aligoren/cli-covid19/issues"
+  },
+  "homepage": "https://github.com/aligoren/cli-covid19#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.3.1"
+  }
+}
